@@ -11,9 +11,8 @@ import idu.cs.entity.UserEntity;
 import idu.cs.repository.UserRepository;
 import idu.cs.exception.ResourceNotFoundException;
 
-@Entity
 @Service("userService")
-public class UserServiceImpl implements UserService {
+public class QuestionServiceImpl implements UserService {
 
 	@Autowired UserRepository repository;
 	

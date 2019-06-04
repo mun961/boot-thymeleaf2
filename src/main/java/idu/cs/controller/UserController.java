@@ -25,7 +25,7 @@ import idu.cs.service.UserService;
 
 @Controller
 //애노테이션 : 컴파일러에게 설정 내용이나 상태를 알려주는 목적, 적용범위가 클래스 내부로 한정
-public class HomeController {
+public class UserController {
 	//@Autowired UserRepository userRepo; // Dependency Injection
 	@Autowired UserService userService;
 	
